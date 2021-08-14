@@ -30,8 +30,10 @@ const generateProjects = projectsArr => {
 module.exports = templateData => {
   // destructure page data by section
   const { projects, ...header } = templateData;
+  console.log("This is template data");
   console.log(templateData);
   return `
+
   <!DOCTYPE html>
   <html lang="en">
   <head>
