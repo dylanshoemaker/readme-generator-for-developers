@@ -1,0 +1,22 @@
+{
+  "name": "readme-generator-for-developers",
+  "version": "1.0.0",
+  "description": "Professional README Generator designed for developers in mind using the MIT License",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylanshoemaker/readme-generator-for-developers.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dylanshoemaker/readme-generator-for-developers/issues"
+  },
+  "homepage": "https://github.com/dylanshoemaker/readme-generator-for-developers#readme",
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  }
+}
