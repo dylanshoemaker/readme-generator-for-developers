@@ -1,11 +1,109 @@
 // TODO: Include packages needed for this application
-
+const writeFile = require("./utils/generateMarkdown");
+const inquirer = require("inquirer");
+const generatePage = require("./src/readme-template");
 // TODO: Create an array of questions for user input
 const questions = [];
+const promptUser = () => {
+  return inquirer.prompt([
+    {
+      type: "input",
+      name: "title",
+      message: "Enter your project title",
+    },
+  ]);
+};
+const promptReadMe = (readMeData) => {
+  console.log(`
+===========================
+Add the bulk of your readme
+===========================
+`);
+  // If there's no 'projects' array property, create one
+  if (!readMeData.projects) {
+    readMeData.projects = [];
+  }
+  return inquirer.prompt([
+    {
+      type: "input",
+      name: "description",
+      message: "Provide a description of your application. (Required)",
+      validate: (descriptionInput) => {
+        if (descriptionInput) {
+          return true;
+        } else {
+          console.log("You need to enter a description!");
+          return false;
+        }
+      },
+    },
+    {
+      type: "input",
+      name: "installation",
+      message: "Provide installation instructions. (Required)",
+      validate: (descriptionInput) => {
+        if (descriptionInput) {
+          return true;
+        } else {
+          console.log("You need to enter the installation instructions!");
+          return false;
+        }
+      },
+    },
+    {
+      type: "input",
+      name: "usage",
+      message: "Provide usage information. (Required)",
+      validate: (descriptionInput) => {
+        if (descriptionInput) {
+          return true;
+        } else {
+          console.log("You need to enter the usage information!");
+          return false;
+        }
+      },
+    },
+    {
+      type: "input",
+      name: "contribution",
+      message: "Provide contribution guidelines. (Required)",
+      validate: (descriptionInput) => {
+        if (descriptionInput) {
+          return true;
+        } else {
+          console.log("You need to enter the contribution guidelines!");
+          return false;
+        }
+      },
+    },
+    {
+      type: "input",
+      name: "test",
+      message: "Provide test instructions. (Required)",
+      validate: (descriptionInput) => {
+        if (descriptionInput) {
+          return true;
+        } else {
+          console.log("You need to enter the test instructions!");
+          return false;
+        }
+      },
+    },
+  ]);
+};
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
+promptUser()
+  .then(promptReadMe)
+  .then(readMeData => {
+    return generatePage(readMeData);
+  })
+  .then(pageHTML => {
+    return writeFile(pageHTML);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
 // TODO: Create a function to initialize app
 function init() {}
 
