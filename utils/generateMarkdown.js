@@ -11,10 +11,10 @@ function renderLicenseLink(license) {}
 function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
-function writeFile(data) {
-  return `# ${data.title}
-`;
-}
+// function writeFile(data) {
+//   return `# ${data.title}
+// `;
+// }
 
 
 
@@ -41,4 +41,4 @@ const writeFile = fileContent => {
 
 
 
-module.exports = generateMarkdown;
+module.exports = { writeFile };

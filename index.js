@@ -1,9 +1,11 @@
 // TODO: Include packages needed for this application
-const writeFile = require("./utils/generateMarkdown");
+
 const inquirer = require("inquirer");
-const generatePage = require("./src/readme-template");
+const generatePage  = require("./src/readme-template.js");
+const { writeFile } = require("./utils/generateMarkdown.js");
+
 // TODO: Create an array of questions for user input
-const questions = [];
+
 const promptUser = () => {
   return inquirer.prompt([
     {
