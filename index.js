@@ -91,12 +91,32 @@ Add the bulk of your readme
         }
       },
     },
-  ]);
+    {
+      type: "input",
+      name: "questions",
+      message: "Provide questions. (Required)",
+      validate: (descriptionInput) => {
+        if (descriptionInput) {
+          return true;
+        } else {
+          console.log("You need to enter questions!");
+          return false;
+        }
+      },
+    },
+  ])
+  .then((projectData) => {
+    readMeData.projects.push(projectData);
+    if (projectData) {
+      return readMeData;
+    }
+  });
 };
 
 // TODO: Create a function to write README file
 promptUser()
   .then(promptReadMe)
+  
   .then(readMeData => {
     return generatePage(readMeData);
   })
