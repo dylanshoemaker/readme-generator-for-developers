@@ -87,13 +87,26 @@ Add the bulk of your readme
     },
     {
       type: "input",
-      name: "questions",
-      message: "Provide questions. (Required)",
+      name: "questionsPartOne",
+      message: "What is your github username? (Required)",
       validate: (descriptionInput) => {
         if (descriptionInput) {
           return true;
         } else {
-          console.log("You need to enter questions!");
+          console.log("You need to enter your github username!");
+          return false;
+        }
+      },
+    },
+    {
+      type: "input",
+      name: "questionsPartTwo",
+      message: "What is a good email for people to send you their questions? (Required)",
+      validate: (descriptionInput) => {
+        if (descriptionInput) {
+          return true;
+        } else {
+          console.log("You need to enter your email!");
           return false;
         }
       },
