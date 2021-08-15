@@ -6,6 +6,7 @@ const generateProjects = (projectsArr) => {
           description,
           installation,
           usage,
+          license,
           contribution,
           test,
           questionsPartOne,
@@ -24,26 +25,27 @@ ${description}
 - [Tests](#tests)
 - [Questions](#questions)
 
-### Installation 
+# Installation 
 
 ${installation}
 
-### Usage
+# Usage
 
 ${usage}
 
-### License
+# License
 
+${license}
 
-### Contributing
+# Contributing
 
 ${contribution}
 
-### Tests
+# Tests
 
 ${test}
 
-### Questions
+# Questions
 
 > ${questionsPartOne}
 > ${questionsPartTwo}

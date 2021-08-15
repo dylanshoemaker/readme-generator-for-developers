@@ -60,6 +60,12 @@ Add the bulk of your readme
       },
     },
     {
+      type: "list",
+      name: "license",
+      message: "Which license would you like to choose",
+      choices: ['MIT', 'GNU General Public License (GPL) 2.0', 'Apache License 2.0', 'GNU General Public License (GPL) 3.0'],
+    },
+    {
       type: "input",
       name: "contribution",
       message: "Provide contribution guidelines. (Required)",

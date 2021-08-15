@@ -1,10 +1,10 @@
 
-# Dylan
+# Dylan shoemaker
 
       
-## Description
+# Description
 
-> asdf
+asdf
 
 # Table of Contents 
 - [Installation](#installation)
@@ -14,26 +14,27 @@
 - [Tests](#tests)
 - [Questions](#questions)
 
-### Installation 
+# Installation 
 
-> asdf
+asdf
 
-### Usage
+# Usage
 
-> asdf
+asdf
 
-### License
+# License
 
+MIT
 
-### Contributing
+# Contributing
 
-> asdf
+asdf
 
-### Tests
+# Tests
 
-> asdf
+asdf
 
-### Questions
+# Questions
 
 > asdf
 > asdf
