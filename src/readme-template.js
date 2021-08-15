@@ -12,9 +12,9 @@ const generateProjects = (projectsArr) => {
           questionsPartTwo,
         }) => {
           return `
-## Description
+# Description
 
-> ${description}
+${description}
 
 # Table of Contents 
 - [Installation](#installation)
@@ -26,22 +26,22 @@ const generateProjects = (projectsArr) => {
 
 ### Installation 
 
-> ${installation}
+${installation}
 
 ### Usage
 
-> ${usage}
+${usage}
 
 ### License
 
 
 ### Contributing
 
-> ${contribution}
+${contribution}
 
 ### Tests
 
-> ${test}
+${test}
 
 ### Questions
 
