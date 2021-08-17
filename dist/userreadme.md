@@ -1,12 +1,13 @@
 
-# Dylan shoemaker
+# asdf
 
       
 # Description
-
+- ![GitHub license](https://img.shields.io/badge/license-MIT License-blue.svg)
 asdf
 
 # Table of Contents 
+
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
@@ -24,7 +25,7 @@ asdf
 
 # License
 
-MIT
+> This project is using the MIT License license.
 
 # Contributing
 
@@ -37,6 +38,7 @@ asdf
 # Questions
 
 > asdf
+
 > asdf
 
   
