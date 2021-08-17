@@ -126,22 +126,4 @@ Add the bulk of your readme
   });
 };
 
-// var iDontKnow = readMeData.projects.license
-//   switch (iDontKnow) {
-//     case "MIT License":
-//         return ['MIT License']("https://img.shields.io/badge/License-MIT-brightgreen");
-//         break;
-//     case "GNU General Public License (GPL) 2.0":
-//         return beta();
-//         break;
-//     case "Apache License 2.0":
-//         return Gamma();
-//         break;
-//     case "GNU General Public License (GPL) 3.0":
-//         return Delta();
-//         break;
-//     default:
-//         return error();    
-//     }
-
 module.exports =  {promptUser, promptReadMe} ;
