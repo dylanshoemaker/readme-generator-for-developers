@@ -1,11 +1,3 @@
-// let mitVar ;
-// const generateBadges = (mitVar) => {
-//   return `
-//   ${mitVar.key1}
-
-//   `
-// }
-// create the projects section
 const generateProjects = (projectsArr) => {
   return `
       ${projectsArr.map(
@@ -26,6 +18,8 @@ const generateProjects = (projectsArr) => {
 # Description
 
 ${description}
+
+![GitHub license](https://img.shields.io/static/v1?label=License&message=${license}&color=blue&style=for-the-badge)
 
 # Table of Contents 
 
@@ -65,12 +59,6 @@ ${test}
         }
       )}`;
 };
-const generateBadges = (projectsArr) => {
-  return `
-      ${projectsArr.map(({ license }) => {
-        return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`;
-      })}`;
-};
 
 // export function to generate entire page
 module.exports = (templateData) => {
@@ -81,7 +69,6 @@ module.exports = (templateData) => {
   //console.log(projects[0].license);
   return `
 # ${header.title}
-${generateBadges(projects)}
 ${generateProjects(projects)}
   `;
 };

@@ -63,7 +63,7 @@ Add the bulk of your readme
       type: "list",
       name: "license",
       message: "Which license would you like to choose",
-      choices: ['MIT License', 'GNU General Public License (GPL) 2.0', 'Apache License 2.0', 'GNU General Public License (GPL) 3.0'],
+      choices: ['MIT', 'GNU2.0', 'Apache2.0', 'GNU(GPL)3.0'],
     },
     {
       type: "input",
