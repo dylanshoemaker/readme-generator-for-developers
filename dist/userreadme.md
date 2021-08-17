@@ -1,12 +1,12 @@
 
-# asdfasdfasdfasdfasdf
+# Amazing Project Title
 
       
+![GitHub license](https://img.shields.io/static/v1?label=License&message=MIT&color=blue&style=for-the-badge)
+
 # Description
 
-asdfasdfasdfasdfasdf
-
-![GitHub license](https://img.shields.io/static/v1?label=License&message=GNU(GPL)3.0&color=blue&style=for-the-badge)
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 # Table of Contents 
 
@@ -19,28 +19,30 @@ asdfasdfasdfasdfasdf
 
 # Installation 
 
-asdfasdfasdfasdfasdf
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 # Usage
 
-asdfasdfasdfasdfasdf
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 # License
 
-> This project is using the GNU(GPL)3.0 license.
+> This project is using the MIT license.
 
 # Contributing
 
-asdfasdfasdfasdfasdf
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 # Tests
 
-asdfasdfasdfasdfasdf
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 # Questions
+Please contact me through the following methods!
 
-> asdfasdfasdfasdfasdf
+> [My Github account](https://github.com/dylanshoemaker)
 
-> asdfasdfasdfasdfasdf
+> <a href="mailto:me@dylanshoemaker.com">My Email</a> 
+
 
   

@@ -11,15 +11,12 @@ const generateProjects = (projectsArr) => {
           questionsPartOne,
           questionsPartTwo,
         }) => {
-          console.log("license");
-          console.log(license);
-          console.log("license");
           return `
+![GitHub license](https://img.shields.io/static/v1?label=License&message=${license}&color=blue&style=for-the-badge)
+
 # Description
 
 ${description}
-
-![GitHub license](https://img.shields.io/static/v1?label=License&message=${license}&color=blue&style=for-the-badge)
 
 # Table of Contents 
 
@@ -51,13 +48,15 @@ ${contribution}
 ${test}
 
 # Questions
+Please contact me through the following methods!
 
-> ${questionsPartOne}
+> [My Github account](https://github.com/${questionsPartOne})
 
-> ${questionsPartTwo}
+> <a href="mailto:${questionsPartTwo}">My Email</a> 
+
 `;
-        }
-      )}`;
+}
+)}`;
 };
 
 // export function to generate entire page
